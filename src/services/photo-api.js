@@ -10,4 +10,6 @@ const getPhotos = (searchQuery, currentPage = 1) => {
     )
     .then(res => res.data.hits);
 };
-export default { getPhotos };
+const photoApi = { getPhotos };
+
+export default photoApi;
